@@ -1,0 +1,35 @@
+{
+  "name": "pzn-nodejs-npm",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "prestart": "echo \"prestart\"",
+    "start": "node index.js",
+    "poststart": "echo \"poststart\"",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adi Nugraha Putra",
+  "keywords": [
+    "nodejs",
+    "npm",
+    "package"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuhptr/nodejs-npm"
+  },
+  "type": "module",
+  "dependencies": {
+    "learn-npm-package": "^1.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "moment": "^2.29.4"
+  }
+}

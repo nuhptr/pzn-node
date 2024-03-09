@@ -1,0 +1,28 @@
+{
+  "date": "Tue Sep 19 2023 10:59:34 GMT+0700 (Western Indonesia Time)",
+  "error": "Ups",
+  "exception": true,
+  "level": "error",
+  "message": "unhandledRejection: Ups\n  No stack trace",
+  "os": { "loadavg": [5.13623046875, 4.59375, 3.83935546875], "uptime": 352833 },
+  "process": {
+    "argv": [
+      "/Users/hikimoriks/Library/Application Support/fnm/node-versions/v18.17.0/installation/bin/node",
+      "/Users/hikimoriks/Documents/nodejs/pzn-nodejs-logging/src/logging-rejection.js"
+    ],
+    "cwd": "/Users/hikimoriks/Documents/nodejs/pzn-nodejs-logging/src",
+    "execPath": "/Users/hikimoriks/Library/Application Support/fnm/node-versions/v18.17.0/installation/bin/node",
+    "gid": 20,
+    "memoryUsage": {
+      "arrayBuffers": 118232,
+      "external": 577849,
+      "heapTotal": 11665408,
+      "heapUsed": 8316320,
+      "rss": 48644096
+    },
+    "pid": 77690,
+    "uid": 501,
+    "version": "v18.17.0"
+  },
+  "trace": []
+}
